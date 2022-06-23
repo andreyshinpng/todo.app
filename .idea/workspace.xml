@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c6c237-3ec0-4dca-8588-09c6d924a00f" name="Changes" comment="created dbconnect.php&#10;created form in index.php&#10;implemented handler.php&#10;added some styles (styles.css)">
+    <list default="true" id="92c6c237-3ec0-4dca-8588-09c6d924a00f" name="Changes" comment="implemented row deleter&#10;added some styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -57,7 +57,7 @@
       <updated>1655764695391</updated>
       <workItem from="1655764699216" duration="604000" />
       <workItem from="1655847360286" duration="4000" />
-      <workItem from="1656021500367" duration="3374000" />
+      <workItem from="1656021500367" duration="6175000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, github!">
       <created>1655765194467</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656023731724</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implemented row deleter&#10;added some styles">
+      <created>1656025014962</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656025014962</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +130,7 @@
     <MESSAGE value="created index.php" />
     <MESSAGE value="created styles.css&#10;created handler.php" />
     <MESSAGE value="created dbconnect.php&#10;created form in index.php&#10;implemented handler.php&#10;added some styles (styles.css)" />
-    <option name="LAST_COMMIT_MESSAGE" value="created dbconnect.php&#10;created form in index.php&#10;implemented handler.php&#10;added some styles (styles.css)" />
+    <MESSAGE value="implemented row deleter&#10;added some styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented row deleter&#10;added some styles" />
   </component>
 </project>

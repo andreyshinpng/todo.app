@@ -11,10 +11,9 @@
 <body>
     <div class="form_block">
         <div class="container">
-            <h1 class="header-h1">TODO APP</h1>
+            <h1 class="header-h1">SIMPLE TODO APP</h1>
             <form action="handler.php" method="POST">
-                <input type="text" name="what_to_do">
-                <input type="submit" name="btn-submit" value="Add">
+                <input type="text" name="what_to_do"><input type="submit" name="btn-submit" value="Add">
             </form>
         </div>
     </div>
@@ -28,7 +27,7 @@
                 echo "<div class='cases_block_item_text'>";
                 echo $row["what_to_do"];
                 echo "</div>";
-                echo "<form method='POST'><input type='submit' name='btn-deletecase".$row["id"]."' value='Delete'></form>";
+                echo "<form method='POST' class='cases_block_item_form'><input type='submit' name='btn-deletecase".$row["id"]."' value='Delete'></form>";
                 echo "</div>";
             }
             for($i=1; $i<=100000; $i++){

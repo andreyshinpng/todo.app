@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body, input {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+input {
+    font-weight: bold;
+}
+
 .container {
-    width: 300px;
+    width: 400px;
     margin: 0 auto;
 }
 
 .header-h1 {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #000;
 }
 
 .form_block {
@@ -17,8 +30,65 @@
 }
 
 .cases_block_item {
-    padding: 12px 14px;
     margin: 12px 0;
-    border: 1px solid #000;
-    border-radius: 6px;
+    background-color: #F2F2F2;
+    border-radius: 3px;
+}
+
+.cases_block_item_text {
+    display: inline-block;
+    padding: 16px 16px;
+    line-height: 16px;
+}
+
+.cases_block_item_form {
+    display: inline-block;
+    float: right;
+}
+
+input[type=text] {
+    display: inline-block;
+    box-sizing: content-box;
+    padding: 0 15px;
+    height: 46px;
+    width: 280px;
+    border: 1px solid #D4D4D4;
+    border-radius: 3px 0 0 3px;
+    color: #696969;
+    transition: .2s;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    transition: .2s;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    border: none;
+    transition: .2s;
+}
+
+input[type=submit]:hover {
+    opacity: .6;
+    transition: .2s;
+}
+
+input[value=Add] {
+    width: 88px;
+    height: 48px;
+    border-radius: 0 3px 3px 0;
+    background-color: #14D38D;
+    color: #fff;
+    float: right;
+}
+
+input[value=Delete] {
+    width: 88px;
+    height: 48px;
+    border-radius: 3px;
+    background-color: #FF4D4D;
+    color: #fff;
 }
