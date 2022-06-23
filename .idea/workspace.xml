@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c6c237-3ec0-4dca-8588-09c6d924a00f" name="Changes" comment="created index.php">
-      <change afterPath="$PROJECT_DIR$/handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    <list default="true" id="92c6c237-3ec0-4dca-8588-09c6d924a00f" name="Changes" comment="created styles.css&#10;created handler.php">
+      <change afterPath="$PROJECT_DIR$/dbconnect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
@@ -25,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +60,7 @@
       <updated>1655764695391</updated>
       <workItem from="1655764699216" duration="604000" />
       <workItem from="1655847360286" duration="4000" />
-      <workItem from="1656021500367" duration="855000" />
+      <workItem from="1656021500367" duration="2090000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, github!">
       <created>1655765194467</created>
@@ -79,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656021655558</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created styles.css&#10;created handler.php">
+      <created>1656022420436</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656022420436</updated>
+    </task>
+    <task id="LOCAL-00005" summary="created styles.css&#10;created handler.php">
+      <created>1656022435180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656022435180</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello, github!" />
     <MESSAGE value="created index.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="created index.php" />
+    <MESSAGE value="created styles.css&#10;created handler.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="created styles.css&#10;created handler.php" />
   </component>
 </project>
