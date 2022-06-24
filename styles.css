@@ -4,6 +4,10 @@ body, input {
     letter-spacing: 1px;
 }
 
+body {
+    padding: 40px 0;
+}
+
 input {
     font-weight: bold;
 }
@@ -15,10 +19,19 @@ input {
 
 .header-h1 {
     margin: 0;
-    margin-bottom: 15px;
-    font-size: 26px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
     letter-spacing: 1px;
-    color: #000;
+    background: -webkit-linear-gradient(left, #3399ff, #ff66cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .2s;
+}
+
+.header-h1:hover {
+    opacity: .6;
+    transition: .2s;
 }
 
 .form_block {
@@ -37,8 +50,9 @@ input {
 
 .cases_block_item_text {
     display: inline-block;
-    padding: 16px 16px;
+    padding: 20px 20px;
     line-height: 16px;
+    color: #696969;
 }
 
 .cases_block_item_form {
@@ -48,13 +62,25 @@ input {
 
 input[type=text] {
     display: inline-block;
-    box-sizing: content-box;
-    padding: 0 15px;
-    height: 46px;
-    width: 280px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    height: 56px;
+    width: 300px;
     border: 1px solid #D4D4D4;
     border-radius: 3px 0 0 3px;
+    font-size: 16px;
+    font-weight: 400;
     color: #696969;
+    transition: .2s;
+}
+
+input[type=text]::placeholder {
+    opacity: 1;
+    transition: .2s;
+}
+
+input[type=text]:focus::placeholder {
+    opacity: 0;
     transition: .2s;
 }
 
@@ -62,6 +88,7 @@ input[type=text]:focus {
     outline: none;
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
+    letter-spacing: 1px;
     transition: .2s;
 }
 
@@ -77,18 +104,44 @@ input[type=submit]:hover {
 }
 
 input[value=Add] {
-    width: 88px;
-    height: 48px;
+    width: 100px;
+    height: 56px;
     border-radius: 0 3px 3px 0;
-    background-color: #14D38D;
+    background-color: #3399ff;
     color: #fff;
     float: right;
 }
 
 input[value=Delete] {
-    width: 88px;
-    height: 48px;
-    border-radius: 3px;
-    background-color: #FF4D4D;
+    width: 100px;
+    height: 56px;
+    border-radius: 0 3px 3px 0;
+    background-color: #ff66cc;
     color: #fff;
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.created_by {
+    display: inline-block;
+}
+
+.github_link {
+    display: inline-block;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3399ff;
+    transition: .2s;
+}
+
+a:hover {
+    color: #ff66cc;
+    transition: .2s;
 }
