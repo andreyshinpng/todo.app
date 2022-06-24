@@ -11,9 +11,9 @@
 <body>
     <div class="form_block">
         <div class="container">
-            <h1 class="header-h1">SIMPLE TODO APP</h1>
+            <h1 class="header-h1"><a href="http://todo-app.local/">SIMPLE TODO APP</a></h1>
             <form action="handler.php" method="POST">
-                <input type="text" name="what_to_do"><input type="submit" name="btn-submit" value="Add">
+                <input type="text" name="what_to_do" placeholder="Enter case..."><input type="submit" name="btn-submit" value="Add">
             </form>
         </div>
     </div>
@@ -39,8 +39,15 @@
             ?>
         </div>
     </div>
+    <footer>
+        <div class="container">
+            <div class="created_by">
+                Created by Andrey Shin
+            </div>
+            <div class="github_link">
+                <a href="https://github.com/andreyshinpng" target="_blank">Github</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
-
-</div>
-

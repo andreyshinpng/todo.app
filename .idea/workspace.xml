@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c6c237-3ec0-4dca-8588-09c6d924a00f" name="Changes" comment="implemented row deleter&#10;added some styles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="92c6c237-3ec0-4dca-8588-09c6d924a00f" name="Changes" comment="redesigned styles.css&#10;added some content">
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <updated>1655764695391</updated>
       <workItem from="1655764699216" duration="604000" />
       <workItem from="1655847360286" duration="4000" />
-      <workItem from="1656021500367" duration="6175000" />
+      <workItem from="1656021500367" duration="7940000" />
     </task>
     <task id="LOCAL-00001" summary="Hello, github!">
       <created>1655765194467</created>
@@ -108,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656025014962</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added final styles">
+      <created>1656027786497</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656027786497</updated>
+    </task>
+    <task id="LOCAL-00009" summary="redesigned styles.css&#10;added some content">
+      <created>1656029470712</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656029470712</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +143,8 @@
     <MESSAGE value="created styles.css&#10;created handler.php" />
     <MESSAGE value="created dbconnect.php&#10;created form in index.php&#10;implemented handler.php&#10;added some styles (styles.css)" />
     <MESSAGE value="implemented row deleter&#10;added some styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented row deleter&#10;added some styles" />
+    <MESSAGE value="added final styles" />
+    <MESSAGE value="redesigned styles.css&#10;added some content" />
+    <option name="LAST_COMMIT_MESSAGE" value="redesigned styles.css&#10;added some content" />
   </component>
 </project>
